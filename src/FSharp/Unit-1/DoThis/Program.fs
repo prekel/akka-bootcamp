@@ -30,6 +30,6 @@ let main argv =
 
     // tell the consoleReader actor to begin
     // YOU NEED TO FILL IN HERE
-
-    myActorSystem.WhenTerminated.Wait ()
+    // and uncomment next line
+    // myActorSystem.WhenTerminated.Wait ()
     0

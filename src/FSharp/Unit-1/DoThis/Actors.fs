@@ -27,6 +27,8 @@ module Actors =
 
             // continue reading messages from the console
             // YOU NEED TO FILL IN HERE
+            // and remove next line
+            assert false
 
     let consoleWriterActor message = 
         let (|Even|Odd|) n = if n % 2 = 0 then Even else Odd
